@@ -1,4 +1,0 @@
-include MANIFEST.in
-include *.txt
-include *.md
-include *.cfg
