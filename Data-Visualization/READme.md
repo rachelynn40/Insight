@@ -28,4 +28,6 @@ easily accessible file path
 It should look like this: ![img.png](img.png)
 
 
+Special Thanks: Christian Murray, Ali Hanks, RadWatch/DoseNet
+
 
