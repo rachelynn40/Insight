@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Insight - Dashboard</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+            href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!-- Page Wrapper -->
+<div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <div class="sidebar-brand-icon rotate-n-15">
+                <i class="fas fa-radiation-alt"></i>
+            </div>
+            <div class="sidebar-brand-text mx-3">Insight Data Visualization</div>
+        </a>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <span>Dashboard</span></a>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Navigate Pages
+        </div>
+
+        </a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+             data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Custom Utilities:</h6>
+                <a class="collapse-item" href="utilities-color.html">Colors</a>
+                <a class="collapse-item" href="utilities-border.html">Borders</a>
+                <a class="collapse-item" href="utilities-animation.html">Animations</a>
+                <a class="collapse-item" href="utilities-other.html">Other</a>
+            </div>
+        </div>
+        </li>
+
+        <!-- Nav Item - Dictionary -->
+        <li class="nav-item">
+            <a class="nav-link" href="dict.html">
+                <i class="fas fa-book-open"></i>
+                <span>Dictionary</span></a>
+
+            <!-- Nav Item - Radiation Detection -->
+        <li class="nav-item">
+            <a class="nav-link" href="detectorInfo.html">
+                <i class="fas fa-biohazard"></i>
+                <span>Radiation Detection</span></a>
+
+            <!-- Nav Item - Radioactive Decay -->
+        <li class="nav-item">
+            <a class="nav-link" href="radioactiveDecay.html">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Radioactive Decay</span></a>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+               aria-expanded="true" aria-controls="collapsePages">
+                <i class="fas fa-capsules"></i>
+                <span>Isotopes</span>
+
+
+            </a>
+            <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Common Isotopes:</h6>
+                    <a class="collapse-item" href="tablesExplained.html">Tables Explained</a>
+                    <a class="collapse-item" href="H.html">Hydrogen</a>
+                    <a class="collapse-item" href="Carbon.html">Carbon</a>
+                    <a class="collapse-item" href="K.html">Potassium</a>
+                    <a class="collapse-item" href="Rn.html">Radon</a>
+                    <a class="collapse-item" href="Bi.html">Bismuth</a>
+                    <a class="collapse-item" href="Pb.html">Lead</a>
+                    <a class="collapse-item" href="Uranium.html">Uranium</a>
+                    <a class="collapse-item" href="Tl.html">Thallium</a>
+                    <a class="collapse-item" href="Th.html">Thorium</a>
+                    <div class="collapse-divider"></div>
+                    <!--                        <h6 class="collapse-header">Other Isotopes:</h6>-->
+                    <!--                        <a class="collapse-item" href="Cs.html">Cesium</a>-->
+                    <!--                        <a class="collapse-item" href="I.html">Iodine</a>-->
+                    <!--                        <a class="collapse-item" href="Sr.html">Strontium</a>-->
+                </div>
+            </div>
+        </li>
+
+
+        <!--Common detectos menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages1"
+               aria-expanded="true" aria-controls="collapsePages">
+                <i class="fas fa-microscope"></i>
+                <span>Common Detectors</span>
+            </a>
+            <div id="collapsePages1" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Select Detector:</h6>
+                    <a class="collapse-item" href="GC.html">Geiger Counters</a>
+                    <a class="collapse-item" href="Dos.html">Dosimeters</a>
+                    <a class="collapse-item" href="SS.html">Solid-State Detectors</a>
+                    <a class="collapse-item" href="Scint.html">Scintillators</a>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <!-- Interactive Features Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages2"
+               aria-expanded="true" aria-controls="collapsePages">
+                <i class="fas fa-cogs"></i>
+                <span>Interactive Features</span>
+
+
+            </a>
+            <div id="collapsePages2" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Learn More:</h6>
+                    <a class="collapse-item" href="plotting-index.html">Plotting</a>
+                    <a class="collapse-item" href="linthresh-index.html">Linear Threshold</a>
+                    <a class="collapse-item" href="bestfit-index.html">Best Fit Lines & Residuals</a>
+                    <a class="collapse-item" href="errorbars-index.html">Error Bars</a>
+                    <a class="collapse-item" href="...html">Interactive Feature...</a>
+
+        </li>
+
+        <!-- Nav Item - upload files -->
+        <li class="nav-item">
+            <a class="nav-link" href="uploadSteps.html">
+                <i class="fas fa-upload"></i>
+                <span>Upload Files</span></a>
+        </li>
+
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline">
+            <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        </div>
+
+        <!-- Sidebar Message -->
+        <div class="sidebar-card">
+            <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="">
+            <p class="text-center mb-2"><strong>Insight Data Visualization</strong> is packed with knowledge! Be on the lookout for exciting new features!</p>
+            <!--                <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Send us your input!</a>-->
+        </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Main Content -->
+        <div id="content">
+
+            <!-- Topbar -->
+            <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                <!-- Sidebar Toggle (Topbar) -->
+                <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+                <!-- Topbar Search -->
+                <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                               aria-label="Search" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">
+                                <i class="fas fa-search fa-sm"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Topbar Navbar -->
+                <ul class="navbar-nav ml-auto">
+
+                    <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                    <li class="nav-item dropdown no-arrow d-sm-none">
+                        <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End of Topbar -->
+
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <h1 class="h3 mb-2 text-gray-800">Understanding Common Terms Involving Radiation Detection & Detectors</h1>
+<!--                <p class="mb-4">...</p>-->
+
+                <!-- Content Row -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Definitions</h6>
+                    </div>
+
+                    <div class="card-body">
+                        <p>
+    <!--                        begin A-->
+                        <h2>A</h2>
+                        <b>Absolute risk: </b>The proportion of a population expected to get a disease over a specified time period.
+                        <br><b>Absorbed Dose: </b>The amount of energy deposited by ionizing radiation in a unit mass of tissue. It is expressed in units of joule per kilogram (J/kg), and called “Gray” (Gy)
+                        <br><b>(radio)Activity: </b>he property of certain nuclides of emitting radiation by spontaneous transformation of their nuclei. Various units of (radio)activity have been used including curie (1 Ci = 3.7 x 1010 disintegrations per second) and becquerel ( 1 Bq = 1 disintegration per second)
+                        <br><b>Alpha particle: </b> the nucleus of a helium atom, made up of two neutrons and two protons with a charge of +2. Certain radioactive nuclei emit alpha particles. Alpha particles generally carry more energy than gamma rays or beta particles, and deposit that energy very quickly while passing through tissue. Alpha particles can be stopped by a thin layer of light material, such as a sheet of paper, and cannot penetrate the outer, dead layer of skin
+                        <br><b>Atom: </b>the smallest particle of an element that can enter into a chemical reaction
+                        <br><b>Atomic number: </b>the total number of protons in the nucleus of an atom
+                        <br><b>Atomic mass unit (amu): </b>1 amu is equal to one twelfth of the mass of a carbon-12 atom
+                        <br><b>Atomic mass number: </b>the total number of protons and neutrons in the nucleus of an atom
+                        <br><b>Atomic weight: </b>the mass of an atom, expressed in atomic mass units. For example, the atomic number of helium-4 is 2, the atomic mass is 4, and the atomic weight is 4.00026.
+
+    <!--                        begin B-->
+                        <br><br><h2>B</h2>
+                        <b>Background Radiation: </b>ionizing radiation from natural sources, such as terrestrial radiation due to radionuclides in the soil or cosmic radiation originating in outer space
+                        <br><b>Becquerel (Bq): </b>he amount of a radioactive material that will undergo one decay (disintegration) per second
+                        <br><b>Beta Particles: </b>electrons ejected from the nucleus of a decaying atom. Although they can be stopped by a thin sheet of aluminum, beta particles can penetrate the dead skin layer, potentially causing burns. They can pose a serious direct or external radiation threat and can be lethal depending on the amount received. They also pose a serious internal radiation threat if beta-emitting atoms are ingested or inhaled
+                        <br><b>Biodosimetry: </b>The use of physiological, chemical or biological markers of exposure of human tissues to ionizing radiation for the purpose of reconstructing doses to individuals or populations
+
+    <!--                        begin C-->
+                        <br><br><h2>C</h2>
+                        <b>Concentration: </b>the ratio of the amount of a specific substance in a given volume or mass of solution to the mass or volume of solvent
+                        <br><b>Contamination: </b>the deposition of unwanted radioactive material on the surfaces of structures, areas, objects, or people where it may be external or internal.
+                        <br><b>Coulomb: </b>the international system (SI) unit of electric charge. A coulomb is the quantity of charge passing a cross section of conductor in one second when the current is one ampere
+                        <br><b>Counts: </b>The number of events detected
+                        <br><b>Criticality:</b>the international system (SI) unit of electric charge. A coulomb is the quantity of charge passing a cross section of conductor in one second when the current is one ampere
+                        <br><b>Critical Mass:</b>the minimum amount of fissile material that can achieve a self-sustaining nuclear chain reaction
+                        <br><b>Curie (Ci): </b>the traditional measure of radioactivity based on the observed decay rate of 1 gram of radium. One curie of radioactive material will have 37 billion disintegrations in 1 second
+
+                        <!--                        begin D-->
+                        <br><br><h2>D</h2>
+                        <b>Dead Time: </b>Time after each event during which the system
+                        is not able to record another event
+                        <br><b>Decay Chain: </b>the series of decays that certain radioisotopes go through before reaching a stable form. For example, the decay chain that begins with uranium-238 (U-238) ends in lead-206 (Pb-206) after forming isotopes, such as uranium-234 (U-234), thorium-230 (Th-230), radium-226 (Ra-226), and radon-222 (Rn-222)
+                        <br><b>Decay (daughter) products: </b>the isotopes or elements formed and the particles and high-energy electromagnetic radiation emitted by the nuclei of radionuclides during radioactive decay. Also known as "decay chain products" or "progeny" (the isotopes and elements). A decay product may be either radioactive or stable
+                        <br><b>Decay: </b>disintegration of the nucleus of an unstable atom by the release of radiation
+                        <br><b>Detection Efficiency: </b>The probability that a quantum
+                        of radiation incident on the detector will produce a reorded pulse
+                        <br><b>Detector: </b>A device that is sensitive to radiation and can produce a response signal suitable for measurement or analysis. A radiation detection instrument
+                        <br><b>Deuterium: </b>a non-radioactive isotope of the hydrogen atom that contains a neutron in its nucleus in addition to the one proton normally seen in hydrogen. A deuterium atom is twice as heavy as normal hydrogen
+                        <br><b>Dose: </b>radiation absorbed by a person’s body
+                        <br><b>Dose equivalent: </b>The product of absorbed dose to a given organ or tissue multiplied by a quality factor (also known as a weighting factor [WF]), and then sometimes multiplied by other necessary modifying factors, to account for the potential for a biological effect resulting from the absorbed dose. It is expressed numerically in rem (traditional units) or sieverts (SI units).
+                        <br><b>Dosimeter: </b>a small portable instrument (such as a film badge, thermoluminescent dosimeter [TLD], or pocket dosimeter) for measuring and recording the total accumulated dose of ionizing radiation a person receives
+                        <br><b>Dosimetry: </b>assessment (by measurement or calculation) of radiation dose
+
+                        <!--                        begin E-->
+                        <br><br><h2>E</h2>
+                        <b>Effective Dose: </b>a calculated quantity developed by the ICRP (1991) for purposes of radiation protection. The effective dose is assumed to be related to the risk of a radiation-induced cancer or a severe hereditary effect. It takes into account: (1) the absorbed doses that will be delivered to the separate organs or tissues of the body during the lifetime of an individual due to intakes of radioactive materials; (2) the absorbed doses due to irradiation by external sources; (3) the relative effectiveness of different radiation types in inducing cancers or severe hereditary effects; (4) the susceptibility of individual organs to develop a radiation-related cancer or severe hereditary effect; (5) considerations of the relative importance of fatal and non-fatal effects; and, (6) the average years of life lost from a fatal health effect
+                        <br><b>Electromagnetic Radiation: </b>A traveling wave motion that results from changing electric and magnetic fields. Types of electromagnetic radiation range from those of short wavelength, like x-rays and gamma rays, through the ultraviolet, visible, and infrared regions, to radar and radio waves of relatively long wavelengths
+                        <br><b>Electron: </b>an elementary particle with a negative electrical charge and a mass 1/1837 that of the proton. Electrons surround the nucleus of an atom because of the attraction between their negative charge and the positive charge of the nucleus. A stable atom will have as many electrons as it has protons. The number of electrons that orbit an atom determine its chemical properties
+                        <br><b>Electron Volt (eV): </b>a unit of energy equivalent to the amount of energy gained by an electron when it passes from a point of low potential to a point one volt higher in potential
+                        <br><b>Element: </b>all isotopes of an atom that contain the same number of protons
+                        <br><b>Enriched Uranium: </b>Uranium in which the proportion of the isotope uranium-235 has been increased by removing uranium-238 mechanically
+                        <br><b>Energy Resolution: </b>Refers to the degree of monochromaticity
+
+                        <!--                        begin F-->
+                        <br><br><h2>F</h2>
+                        <b>Fissile material: </b>any material in which neutrons can cause a fission reaction. The three primary fissile materials are uranium-233, uranium-235, and plutonium-239
+                        <br><b>Fission: </b>the splitting of a nucleus into at least two other nuclei that releases a large amount of energy. Two or three neutrons are usually released during this transformation
+                        <br><b>Fusion: </b>a reaction in which two lighter nuclei unite to form a heavier one, releasing energy in the process. Reactions of this type are responsible for the release of energy in stars or in thermonuclear devices
+
+                        <!--                        begin G-->
+                        <br><br><h2>G</h2>
+                        <b>Gamma Rays: </b>high-energy electromagnetic radiation emitted by certain radionuclides when their nuclei transition from a higher to a lower energy state. These rays have high energy and a short wave-length. All gamma rays emitted from a given isotope have the same energy, a characteristic that enables scientists to identify which gamma emitters are present in a sample. Gamma rays penetrate tissue farther than do beta or alpha particles but leave a lower concentration of ions in their path to potentially cause cell damage. Gamma rays are very similar to x-rays
+                        <br><b>Geiger Counter: </b>a radiation detection and measuring instrument consisting of a gas-filled tube containing electrodes, between which an electrical voltage but no current flows. When ionizing radiation passes through the tube, a short, intense pulse of current passes from the negative electrode to the positive electrode and is measured or counted. The number of pulses per second measures the intensity of the radiation field. Geiger counters are the most commonly used portable radiation detection instruments
+                        <br><b>Gray (Gy): </b>The new international system (SI) unit of radiation dose, expressed as absorbed energy per unit mass of tissue. The SI unit "Gray" has replaced the older "rad" designation. (1 Gy = 1 joule/kilogram = 100 rad). Gray can be used for any type of radiation (e.g., alpha, beta, neutron, gamma), but it does not describe the biological effects of different radiations
+
+                        <!--                        begin H-->
+                        <br><br><h2>H</h2>
+                        <b>Half-life: </b>the time any substance takes to decay by half of its original amount
+                        <br><b>Highly Enriched Uranium: </b>uranium that is enriched to above 20% uranium-235 (U-235). Weapons-grade HEU is enriched to above 90% in U-235
+
+                        <!--                        begin I-->
+                        <br><br><h2>I</h2>
+                        <b>Ion: </b>an atom that has fewer or more electrons than it has protons, causing it to have an electrical charge and, therefore, be chemically reactive
+                        <br><b>Ionization: </b>the process of adding one or more electrons to, or removing one or more electrons from, atoms or molecules, thereby creating ions. High temperatures, electrical discharges, or nuclear radiation can cause ionization
+                        <br><b>Irradiation: </b>exposure to radiation
+                        <br><b>Isotope: </b>a nuclide of an element having the same number of protons but a different number of neutrons
+
+                        <!--                        begin L-->
+                        <br><br><h2>L</h2>
+                        <b>Latent Period: </b>the time between exposure to a toxic material and the appearance of a resultant health effect
+                        <br><b>Lethal Dose: </b>the dose of radiation expected to cause death within 30 days to 50% of those exposed without medical treatment. The generally accepted dose is about 400 rem received over a short period of time
+
+                        <!--                        begin M-->
+                        <br><br><h2>M</h2>
+                        <b>Molecule: </b>a combination of two or more atoms that are chemically bonded. A molecule is the smallest unit of a compound that can exist by itself and retain all of its chemical properties
+
+                        <!--                        begin N-->
+                        <br><br><h2>N</h2>
+                        <b>Neutron: </b>a small atomic particle possessing no electrical charge, typically found within an atom's nucleus. Neutrons are, as the name implies, neutral in their charge. That is, they have neither a positive nor a negative charge. A neutron has about the same mass as a proton
+                        <br><b>Non-ionizing Radiation: </b>radiation that has lower energy levels and longer wavelengths than ionizing radiation. It is not strong enough to affect the structure of atoms it contacts but is strong enough to heat tissue and can cause harmful biological effects. Examples include radio waves, microwaves, visible light, and infrared from a heat lamp
+                        <br><b>Nuclear Energy: </b>the heat energy produced by the process of nuclear fission within a nuclear reactor or by radioactive decay
+                        <br><b>Nucleon: </b>a proton or a neutron; a constituent of the nucleus of an atom
+                        <br><b>Nucleus: </b>the central part of an atom that contains protons and neutrons. The nucleus is the heaviest part of the atom
+                        <br><b>Nuclide: </b>a general term applicable to all atomic forms of an element. Nuclides are characterized by the number of protons and neutrons in the nucleus, as well as by the amount of energy contained within the atom
+
+                        <!--                        begin P-->
+                        <br><br><h2>P</h2>
+                        <b>Pathways: </b>the routes by which people are exposed to radiation or other contaminants. The three basic pathways are inhalation, ingestion, and direct external exposure
+                        <br><b>Photon: </b>a discrete "packet" of pure electromagnetic energy. Photons have no mass and travel at the speed of light. The term "photon" was developed to describe energy when it acts like a particle (causing interactions at the molecular or atomic level), rather than a wave. Gamma rays and x-rays are photons
+                        <br><b>Plateaus: </b>an area on a nuclear spectrum that is relatively horizontal
+                        <br><b>Proton: </b>a small atomic particle, typically found within an atom's nucleus, that possesses a positive electrical charge. Even though protons and neutrons are about 2,000 times heavier than electrons, they are tiny. The number of protons is unique for each chemical element
+                        <br><b>Pulse Height Spectra:</b> The amplitudes (height/peaks) of signals from a
+                        radiation detector are used to determine the energies of radiation(s)
+                        striking the detector.
+
+                           <!--                        begin R-->
+                        <br><br><h2>R</h2>
+                        <b>Rad (radiation absorbed dose): </b> a basic unit of absorbed radiation dose. It is a measure of the amount of energy absorbed by the body. The rad is the traditional unit of absorbed dose. It is being replaced by the unit gray (Gy), which is equivalent to 100 rad. One rad equals the dose delivered to an object of 100 ergs of energy per gram of material
+                        <br><b>Radiation: </b>energy moving in the form of particles or waves. Familiar radiations are heat, light, radio waves, and microwaves. Ionizing radiation is a very high-energy form of electromagnetic radiation
+                        <br><b>Radioactive Decay: </b>the spontaneous disintegration of the nucleus of an atom
+                        <br><b>Radioactive Material: </b>material that contains unstable (radioactive) atoms that give off radiation as they decay
+                        <br><b>Radioactivity: </b>the process of spontaneous transformation of the nucleus, generally with the emission of alpha or beta particles often accompanied by gamma rays. This process is referred to as decay or disintegration of an atom
+                        <br><b>Radioisotope: </b>isotopes of an element that have an unstable nucleus. Radioactive isotopes are commonly used in science, industry, and medicine. The nucleus eventually reaches a stable number of protons and neutrons through one or more radioactive decays. Approximately 3,700 natural and artificial radioisotopes have been identified
+                        <br><b>Radionuclide: </b>an unstable and therefore radioactive form of a nuclide
+                        <br><b>Risk: </b>the probability of injury, disease, or death under specific circumstances and time periods. Risk can be expressed as a value that ranges from 0% (no injury or harm will occur) to 100% (harm or injury will definitely occur). Risk can be influenced by several factors: personal behavior or lifestyle, environmental exposure to other material, or an inborn or inherited characteristic known from scientific evidence to be associated with a health effect. Because many risk factors are not exactly measurable, risk estimates are uncertain
+
+                        <!--                        begin S-->
+                        <br><br><h2>S</h2>
+                        <b>Sensitivity: </b>ability of an analytical method to detect small concentrations of radioactive material
+                        <br><b>Sievert: </b>1 Sv = 1 Joule per kilogram. Used to measure the health effects of ionizing radiation (usually low doses), both external and internal. Sievert is the special name for the Standard International (SI) unit of dose equivalent (H), equivalent dose (HT), effective dose (E), weighted dose, and organ dose equivalent
+                        <br><b>Specific Activity: </b>Unit pertaining to the disintegrations per gram of a radioisotope
+
+                        <!--                        begin T-->
+                        <br><br><h2>T</h2>
+                        <b>Tritium: </b>(chemical symbol H-3) a radioactive isotope of the element hydrogen (chemical symbol H)
+
+                        <!--                        begin U-->
+                        <br><br><h2>U</h2>
+                        <b>Uranium: </b>a naturally occurring radioactive element whose principal isotopes are uranium-238 (U-238) and uranium-235 (U-235). Natural uranium is a hard, silvery-white, shiny metallic ore that contains a minute amount of uranium-234 (U-234)
+
+                        <!--                        begin X-->
+                        <br><br><h2>X</h2>
+                        <b>X-ray: </b>electromagnetic radiation caused by deflection of electrons from their original paths, or inner orbital electrons that change their orbital levels around the atomic nucleus. X-rays, like gamma rays can travel long distances through air and most other materials. Like gamma rays, x-rays require more shielding to reduce their intensity than do beta or alpha particles. X-rays and gamma rays differ primarily in their origin: x-rays originate in the electron shell; gamma rays originate in the nucleus
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                    <span>Copyright &copy; Insight Data Visualization 2021</span>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+</div>
+<!-- End of Page Wrapper -->
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+</a>
+
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <a class="btn btn-primary" href="login.html">Logout</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="js/sb-admin-2.min.js"></script>
+
+<!-- Page level plugins -->
+<script src="vendor/datatables/jquery.dataTablesNoEntries.js"></script>
+<script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+<!-- Page level custom scripts -->
+<script src="js/demo/datatables-demo.js"></script>
+
+</body>
+
+</html></title>
+</head>
+<body>
+
+</body>
+</html>
